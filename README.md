@@ -98,6 +98,13 @@ Dipstick-detection/
 
 ---
 
+## Deployment
+This model is deployed as a Hugging Face Space:
+- Space: https://huggingface.co/spaces/miaikoo/oil-quality
+- Framework: Gradio
+
+---
+
 ## 🚀 Key Features
 
 ### YOLOv11 Segmentation
