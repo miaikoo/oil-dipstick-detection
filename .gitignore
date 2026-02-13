@@ -1,0 +1,39 @@
+# Ignore Python virtual environments
+venv/
+.env/
+.venv/
+ENV/
+
+# Ignore data folders
+/data/
+!/data/data.yaml
+
+# Ignore Jupyter notebook checkpoints
+**/.ipynb_checkpoints/
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore model weights
+*.pt
+*.pth
+
+# Ignore logs
+*.log
+
+# Ignore test outputs
+/test_api.py
+/test_hf_api.py
+
+# ignore huggingface cache and models
+hf-deploy/
+models/
+*.cbm
+*.pt
